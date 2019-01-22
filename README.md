@@ -1,34 +1,22 @@
-The VBA of Wall Street
+Excel and VBA Analysis of California Utility Natural Gas Consumption by Sector
 
-![stock Market](Images/stockmarket.jpg)
+![Utility NG Consumption](Images/utilityng.jpg)
 
-### Module 1 generates total stock volumes for each individual stock on each individual worksheet. 
+### This workbook is an analysis of California utility natural gas consumption in millions of therms by sector. The data is sourced from: http://www.ecdms.energy.ca.gov/gasbyutil.aspx
 
-* This script will loop through each year of stock data and grab the total amount of volume each stock had over the year.
+### The workbook starts with the Data tab. 
 
-* It will display the ticker symbol to coincide with the total volume on each individual worksheet.
+* Use the dropdown selector on the Data tab to select any California utility.
 
+* Using the FilterData Module, the data for the utility selected will then be copied to the "SpecUtilityData" tab to view just the data for that specific utility. 
 
-### Module 2 includes additional column calculations as well as conditional coloring schemes based on the calculated columns. 
+* Scroll to the right on the Data tab to find the Data Maximums section where the Index and Match formulas are used together to find the utility with the highest natural gas comsumption levels for each sector. 
 
-* This script will loop through all the stocks and take the following info.
+### The Start Here Dashboard worksheet tab is a dashboard with filter slicers that allows you to view multiple charts for the selected utility types and names and for selected years or a range of years. 
 
-  * Yearly change from what the stock opened the year at to what the closing price was.
-
-  * The percent change from the what it opened the year at to what it closed.
-
-  * The total Volume of the stock
-
-  * Ticker symbol
-
-* It is also conditionally formatted to highlight positive change in green and negative change in red.
+* The pivot charts displayed here are sourced from all the subsequent worksheet pivot table tabs. 
 
 
-### Module 3 includes the maximum and minimum values for percent changes and the maximum total volume and along with the stock's ticker symbol. 
-
-* This module includes everything from module 2. 
-
-* Module 3 will also  locate the stock with the "Greatest % increase", "Greatest % Decrease" and "Greatest total volume" and puts them in a separate area on each worksheet starting in cell "O2".
 
 
 
