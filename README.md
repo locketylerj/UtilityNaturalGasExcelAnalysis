@@ -1,6 +1,6 @@
 Excel and VBA Analysis of California Utility Natural Gas Consumption by Sector
 
-![Utility NG Consumption](Images/utilityng.jpg)
+![UtilityNGConsumption](Images/utilityng.jpg)
 
 ### This workbook is an analysis of California utility natural gas consumption in millions of therms by sector. The data is sourced from: http://www.ecdms.energy.ca.gov/gasbyutil.aspx
 
